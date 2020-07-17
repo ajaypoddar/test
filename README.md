@@ -37,3 +37,6 @@ git log
 git checkout master
 git status
 git log
+
+# I've been using this really cool git command for a long time called git lg. It's like git log but wayyyyyyyy better.
+git log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(reset) %><(55,trunc)%s%C(red)%d%C(reset) %C(blue)[%an]%C(reset) %C(yellow)%ad%C(reset)%n'

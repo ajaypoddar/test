@@ -26,5 +26,14 @@ git push origin master
 # see the difference in the files
 git diff FILE_NAME
 
-# undo the changes and restore to old version
+# undo the changes and restore to old version of the file
 git checkout FILE_NAME
+
+# undo and redo git
+git log
+git checkout COMMIT_ID
+git status
+git log
+git checkout master
+git status
+git log
